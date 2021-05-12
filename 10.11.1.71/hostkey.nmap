@@ -1,0 +1,11 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-05-12 01:23 KST
+Nmap scan report for 10.11.1.71
+Host is up (0.31s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+| ssh-hostkey: 
+|   1024 72:b5:55:80:1b:24:d6:f3:bf:a5:c5:98:1b:01:03:90 (DSA)
+|_  256 3b:0b:f3:84:3c:7d:6e:2b:2c:81:11:94:16:9b:71:7d (ED25519)
+
+Nmap done: 1 IP address (1 host up) scanned in 96.82 seconds
