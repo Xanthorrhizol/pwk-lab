@@ -1,0 +1,11 @@
+---------------------------------------------------------------------------------------------------------------------------- ---------------------------------
+ Exploit Title                                                                                                              |  Path
+---------------------------------------------------------------------------------------------------------------------------- ---------------------------------
+[01;31m[KBigTree[m[K 4.3.4 CMS - Multiple SQL Injection                                                                                  | php/webapps/46623.txt
+[01;31m[KBigTree[m[K CMS 4.0 RC2 - Multiple Vulnerabilities                                                                              | php/webapps/27431.txt
+[01;31m[KBigTree[m[K CMS 4.2.11 - SQL Injection                                                                                          | php/webapps/40024.txt
+[01;31m[KBigTree[m[K CMS 4.2.23 - Cross-Site Scripting                                                                                   | php/webapps/45628.txt
+[01;31m[KBigTree[m[K CMS 4.2.3 - (Authenticated) SQL Injection                                                                           | php/webapps/37821.txt
+[01;31m[KBigTree[m[K CMS 4.4.10 - Remote Code Execution                                                                                  | php/webapps/48831.txt
+---------------------------------------------------------------------------------------------------------------------------- ---------------------------------
+Shellcodes: No Results
