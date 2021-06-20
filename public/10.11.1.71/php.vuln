@@ -1,0 +1,3 @@
+PHP version : 5.5.9-1ubuntu4.4
+	PHP < 5.6.2 - 'Shellshock' Safe Mode / disable_functions Bypass / Command Injection
+	php/webapps/35146.txt
