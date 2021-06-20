@@ -1,0 +1,177 @@
+---------------------------------------------------------------------------------------------------------------------------- ---------------------------------
+ Exploit Title                                                                                                              |  Path
+---------------------------------------------------------------------------------------------------------------------------- ---------------------------------
+Aerohive HiveOS 5.1r5 < 6.1r5 - Multiple Vulnerabilities                                                                    | php/webapps/34038.txt
+AlefMentor 2.0 < 5.0 - 'id' SQL Injection                                                                                   | php/webapps/10358.txt
+AlienVault OSSIM/USM < 5.3.1 - Remote Code Execution (Metasploit)                                                           | php/webapps/41424.rb
+Alkacon OpenCMS 7.5.x - Multiple Cross-Site Scripting Vulnerabilities                                                       | php/webapps/35515.txt
+Alqatari group 1.0 < 5.0 - 'id' SQL Injection                                                                               | php/webapps/10357.txt
+Apache + PHP < 5.3.12 / < 5.4.2 - cgi-bin Remote Code Execution                                                             | php/remote/29290.c
+Apache + PHP < 5.3.12 / < 5.4.2 - Remote Code Execution + Scanner                                                           | php/remote/29316.py
+ATutor 1.5.x - '/admin/fix_content.php?submit' Cross-Site Scripting                                                         | php/webapps/28180.txt
+ATutor 1.5.x - '/documentation/admin/index.php' Cross-Site Scripting                                                        | php/webapps/28177.txt
+ATutor 1.5.x - '/users/browse.php?cat' Cross-Site Scripting                                                                 | php/webapps/28179.txt
+ATutor 1.5.x - 'create_course.php' Multiple Cross-Site Scripting Vulnerabilities                                            | php/webapps/28176.txt
+ATutor 1.5.x - 'password_reminder.php?forgot' Cross-Site Scripting                                                          | php/webapps/28178.txt
+Bacula-Web 1.3.x < 5.0.3 - Multiple Vulnerabilities                                                                         | php/webapps/16935.txt
+Bacula-Web < 8.0.0-rc2 - SQL Injection                                                                                      | php/webapps/44272.txt
+Battle.net Clan Script 1.5.x - 'index.php' Multiple SQL Injections                                                          | php/webapps/32181.txt
+Battle.net Clan Script 1.5.x - SQL Injection                                                                                | php/webapps/5597.pl
+BookingWizz Booking System < 5.5 - Multiple Vulnerabilities                                                                 | php/webapps/39955.txt
+Cerberus Helpdesk (Cerb5) 5 < 6.7 - Password Hash Disclosure                                                                | php/webapps/39526.sh
+CometChat < 6.2.0 BETA 1 - Local File Inclusion                                                                             | php/webapps/43027.txt
+Concrete CMS < 5.5.21 - Multiple Vulnerabilities                                                                            | php/webapps/37225.pl
+Concrete5 CMS < 5.4.2.1 - Multiple Vulnerabilities                                                                          | php/webapps/17925.txt
+Concrete5 CMS < 8.3.0 - Username / Comments Enumeration                                                                     | php/webapps/44194.py
+cPanel < 11.25 - Cross-Site Request Forgery (Add User PHP Script)                                                           | php/webapps/17330.html
+DCP-Portal 3.7/4.x/5.x - 'announcement.php?cid' Cross-Site Scripting                                                        | php/webapps/24661.txt
+DCP-Portal 3.7/4.x/5.x - 'calendar.php' HTTP Response Splitting                                                             | php/webapps/24665.txt
+DCP-Portal 3.7/4.x/5.x - 'calendar.php' Multiple Cross-Site Scripting Vulnerabilities                                       | php/webapps/24659.txt
+DCP-Portal 3.7/4.x/5.x - 'contents.php?cid' Cross-Site Scripting                                                            | php/webapps/24663.txt
+DCP-Portal 3.7/4.x/5.x - 'index.php' Multiple Cross-Site Scripting Vulnerabilities                                          | php/webapps/24660.txt
+DCP-Portal 3.7/4.x/5.x - 'news.php?cid' Cross-Site Scripting                                                                | php/webapps/24662.txt
+DCP-Portal 3.7/4.x/5.x - Multiple HTML Injection Vulnerabilities                                                            | php/webapps/24664.txt
+DCP-Portal 3.7/4.x/5.x/6.x - 'calendar.php' Multiple Cross-Site Scripting Vulnerabilities                                   | php/webapps/27391.txt
+DCP-Portal 3.7/4.x/5.x/6.x - 'forums.php' Multiple Cross-Site Scripting Vulnerabilities                                     | php/webapps/27392.txt
+DCP-Portal 3.7/4.x/5.x/6.x - 'inbox.php' Multiple Cross-Site Scripting Vulnerabilities                                      | php/webapps/27393.txt
+DCP-Portal 3.7/4.x/5.x/6.x - 'index.php' Multiple Cross-Site Scripting Vulnerabilities                                      | php/webapps/27390.txt
+DCP-Portal 3.7/4.x/5.x/6.x - 'lostpassword.php' Multiple Cross-Site Scripting Vulnerabilities                               | php/webapps/27394.txt
+DCP-Portal 3.7/4.x/5.x/6.x - 'mycontents.php' Multiple Cross-Site Scripting Vulnerabilities                                 | php/webapps/27395.txt
+DeDeCMS < 5.7-sp1 - Remote File Inclusion                                                                                   | php/webapps/37423.txt
+Dolibarr ERP/CRM < 7.0.3 - PHP Code Injection                                                                               | php/webapps/44964.txt
+Drupal < 5.1 - Post Comments Remote Command Execution                                                                       | php/webapps/3312.pl
+Drupal < 5.22/6.16 - Multiple Vulnerabilities                                                                               | php/webapps/33706.txt
+Drupal < 7.58 - 'Drupalgeddon3' (Authenticated) Remote Code (Metasploit)                                                    | php/webapps/44557.rb
+Drupal < 7.58 - 'Drupalgeddon3' (Authenticated) Remote Code Execution (PoC)                                                 | php/webapps/44542.txt
+Drupal < 7.58 / < 8.3.9 / < 8.4.6 / < 8.5.1 - 'Drupalgeddon2' Remote Code Execution                                         | php/webapps/44449.rb
+Drupal < 8.3.9 / < 8.4.6 / < 8.5.1 - 'Drupalgeddon2' Remote Code Execution (Metasploit)                                     | php/remote/44482.rb
+Drupal < 8.3.9 / < 8.4.6 / < 8.5.1 - 'Drupalgeddon2' Remote Code Execution (PoC)                                            | php/webapps/44448.py
+Drupal < 8.5.11 / < 8.6.10 - RESTful Web Services unserialize() Remote Command Execution (Metasploit)                       | php/remote/46510.rb
+Drupal < 8.6.10 / < 8.5.11 - REST Module Remote Code Execution                                                              | php/webapps/46452.txt
+Drupal < 8.6.9 - REST Module Remote Code Execution                                                                          | php/webapps/46459.py
+Drupal Module Ajax Checklist 5.x-1.0 - Multiple SQL Injections                                                              | php/webapps/32415.txt
+Drupal Module Coder < 7.x-1.3/7.x-2.6 - Remote Code Execution                                                               | php/remote/40144.php
+Drupal Module Cumulus 5.x-1.1/6.x-1.4 - 'tagcloud' Cross-Site Scripting                                                     | php/webapps/35397.txt
+Drupal Module Sections 5.x-1.2/6.x-1.2 - HTML Injection                                                                     | php/webapps/33410.txt
+FileRun < 2017.09.18 - SQL Injection                                                                                        | php/webapps/42922.py
+FlatNuke 2.5.x - 'help.php' Multiple Cross-Site Scripting Vulnerabilities                                                   | php/webapps/25800.txt
+FlatNuke 2.5.x - 'index.php' Cross-Site Scripting                                                                           | php/webapps/26385.txt
+FlatNuke 2.5.x - 'index.php' Multiple Remote File Inclusions                                                                | php/webapps/26384.txt
+FlatNuke 2.5.x - 'index.php?where' Full Path Disclosure                                                                     | php/webapps/25799.txt
+FlatNuke 2.5.x - 'referer.php' Crafted Referer Arbitrary PHP Code Execution                                                 | php/webapps/25801.php
+FlightPath < 4.8.2 / < 5.0-rc2 - Local File Inclusion                                                                       | php/webapps/47121.txt
+Fozzcom Shopping < 7.94 / < 8.04 - Multiple Vulnerabilities                                                                 | php/webapps/15571.txt
+FreePBX < 13.0.188 - Remote Command Execution (Metasploit)                                                                  | php/remote/40434.rb
+GeoClassifieds Enterprise 2.0.5.x - 'index.php' Multiple Cross-Site Scripting Vulnerabilities                               | php/webapps/28292.txt
+IceWarp Mail Server < 11.1.1 - Directory Traversal                                                                          | php/webapps/44587.txt
+IceWarp Merak Mail Server 9.4.1 - 'item.php' Cross-Site Scripting                                                           | php/webapps/32985.xml
+ILIAS < 5.2.4 - Cross-Site Scripting                                                                                        | php/webapps/43595.txt
+Interspire Email Marketer < 6.1.6 - Remote Admin Authentication Bypass                                                      | php/webapps/44513.py
+Interspire Knowledge Manager < 5.1.3 - Multiple Remote Vulnerabilities                                                      | php/webapps/33595.txt
+Jcow Social Networking Script 4.2 < 5.2 - Arbitrary Code Execution (Metasploit)                                             | php/webapps/17722.rb
+Joomla! 1.5.x - 'Token' Remote Admin Change Password                                                                        | php/webapps/6234.txt
+Joomla! 1.5.x - 404 Error Page Cross-Site Scripting                                                                         | php/webapps/33378.txt
+Joomla! 1.5.x - Cross-Site Scripting / Information Disclosure                                                               | php/webapps/33061.php
+Joomla! 1.5.x - SQL Error Information Disclosure                                                                            | php/webapps/34955.txt
+Joomla! Component com_joomgallery 1.5.x - &func Incorrect Flood Filter                                                      | php/webapps/10312.php
+Joomla! Component News Portal 1.5.x - Local File Inclusion                                                                  | php/webapps/12077.txt
+KACE System Management Appliance (SMA) < 9.0.270 - Multiple Vulnerabilities                                                 | php/webapps/46956.txt
+Kaltura < 13.2.0 - Remote Code Execution                                                                                    | php/webapps/43028.py
+Kaltura Community Edition < 11.1.0-2 - Multiple Vulnerabilities                                                             | php/webapps/39563.txt
+Kerio WinRoute Firewall Web Server < 6 - Source Code Disclosure                                                             | php/webapps/18857.txt
+Kolang 4.3.10 < 5.3.0 - 'proc_open()' PHP 'safe_mode' Bypass                                                                | php/webapps/11636.php
+Lms 1.5.x - 'RTMessageAdd.php' Remote File Inclusion                                                                        | php/webapps/29886.txt
+Managed Workplace Service Center 4.x/5.x/6.x - Installation Information Disclosure                                          | php/webapps/31129.txt
+Mantis Bug Tracker 0.15.x/0.16/0.17.x - JPGraph Remote File Inclusion Command Execution                                     | php/webapps/21727.txt
+Micro Focus Secure Messaging Gateway (SMG) < 471 - Remote Code Execution (Metasploit)                                       | php/webapps/45083.rb
+MoinMoin 1.5.x - 'index.php' Cross-Site Scripting                                                                           | php/webapps/29915.txt
+MoinMoin 1.5.x - 'MOIND_ID' Cookie Login Bypass                                                                             | php/webapps/4957.txt
+NPDS 4.8 < 5.0 - 'admin.php?language' Cross-Site Scripting                                                                  | php/webapps/25742.txt
+NPDS 4.8 < 5.0 - 'faq.php?categories' Cross-Site Scripting                                                                  | php/webapps/25750.txt
+NPDS 4.8 < 5.0 - 'links.php?Query' SQL Injection                                                                            | php/webapps/25749.txt
+NPDS 4.8 < 5.0 - 'powerpack_f.php?language' Cross-Site Scripting                                                            | php/webapps/25743.txt
+NPDS 4.8 < 5.0 - 'reply.php?image_subject' Cross-Site Scripting                                                             | php/webapps/25747.txt
+NPDS 4.8 < 5.0 - 'reviews.php?title' Cross-Site Scripting                                                                   | php/webapps/25746.txt
+NPDS 4.8 < 5.0 - 'sdv_infos.php?sitename' Cross-Site Scripting                                                              | php/webapps/25744.txt
+NPDS 4.8 < 5.0 Glossaire Module - 'terme' SQL Injection                                                                     | php/webapps/25748.txt
+NPDS < 08.06 - Multiple Input Validation Vulnerabilities                                                                    | php/webapps/32689.txt
+Nuevomailer < 6.0 - SQL Injection                                                                                           | php/webapps/42164.txt
+Open Realty 2.5.x - 'select_users_template' Local File Inclusion                                                            | php/webapps/36910.txt
+OPNsense < 19.1.1 - Cross-Site Scripting                                                                                    | php/webapps/46351.txt
+ownCloud 4.0.x/4.5.x - 'upload.php?Filename' Remote Code Execution                                                          | multiple/webapps/32162.txt
+PHORUM 3.x/5.x - 'Common.php' Remote File Inclusion                                                                         | php/webapps/27363.txt
+Phorum < 5.0.3 Beta - Cross Site Scripting                                                                                  | php/webapps/43802.txt
+PHP 3 < 5 - Ini_Restore() 'Safe_mode' / 'open_basedir' Restriction Bypass                                                   | php/local/28504.php
+PHP 3 < 5 - ZendEngine ECalloc Integer Overflow                                                                             | php/remote/28760.php
+PHP 4.x/5.x - 'Html_Entity_Decode()' Information Disclosure                                                                 | php/remote/27508.txt
+PHP 4.x/5.x MySQL Library - 'Safe_mode' Filesystem Circumvention (1)                                                        | php/remote/21264.php
+PHP 4.x/5.x MySQL Library - 'Safe_mode' Filesystem Circumvention (2)                                                        | php/remote/21265.php
+PHP 4.x/5.x MySQL Library - 'Safe_mode' Filesystem Circumvention (3)                                                        | php/remote/21266.php
+PHP 5.x - 'Win32service' Local 'Safe_Mode()' Bypass                                                                         | windows/local/4236.php
+PHP 5.x COM - Safe Mode / disable_functions Bypass                                                                          | windows/local/4553.php
+PHP < 5.3.12 / < 5.4.2 - CGI Argument Injection                                                                             | php/remote/18836.py
+PHP < 5.6.2 - 'Shellshock' Safe Mode / disable_functions Bypass / Command Injection                                         | php/webapps/35146.txt
+PHP RapidKill Pro 5.x - Arbitrary File Upload                                                                               | php/webapps/12272.txt
+PHP-Nuke 1.0/2.5/3.0/4.x/5.x/6.x/7.x - 'modules.php' Multiple Cross-Site Scripting Vulnerabilities                          | php/webapps/21166.txt
+PHP-Nuke 1.0/2.5/3.0/4.x/5.x/6.x/7.x - 'user.php?uname' Cross-Site Scripting                                                | php/webapps/21165.txt
+PHP-Nuke 1.0/2.5/3.0/4.x/5.x/6.x/7.x - Multiple Vulnerabilities                                                             | php/webapps/24232.txt
+PHP-Nuke 4.x/5.x - Arbitrary File Inclusion                                                                                 | php/webapps/21230.txt
+PHP-Nuke 4.x/5.x - SQL_Debug Information Disclosure                                                                         | php/webapps/21233.txt
+PHP-Nuke 5.x - Error Message Web Root Disclosure                                                                            | php/webapps/21349.txt
+PHP-Nuke 5.x/6.0 - Avatar HTML Injection                                                                                    | php/webapps/22211.txt
+PHP-Nuke 5.x/6.0/6.5 Beta 1 - Multiple Cross-Site Scripting Vulnerabilities                                                 | php/webapps/22037.txt
+PHP-Nuke 5.x/6.x Web_Links Module - SQL Injection                                                                           | php/webapps/22589.txt
+PHP-Nuke 5.x/6.x/7.x - Direct Script Access Security Bypass                                                                 | php/webapps/24166.txt
+PHP-Nuke < 8.0 - 'sid' SQL Injection                                                                                        | php/webapps/4964.php
+PHPHoo3 < 5.2.6 - 'viewCat' SQL Injection                                                                                   | php/webapps/6091.txt
+PHPLib < 7.4 - SQL Injection                                                                                                | php/webapps/43838.txt
+PHPMailer < 5.2.18 - Remote Code Execution                                                                                  | php/webapps/40968.sh
+PHPMailer < 5.2.18 - Remote Code Execution                                                                                  | php/webapps/40970.php
+PHPMailer < 5.2.18 - Remote Code Execution                                                                                  | php/webapps/40974.py
+PHPMailer < 5.2.19 - Sendmail Argument Injection (Metasploit)                                                               | multiple/webapps/41688.rb
+PHPMailer < 5.2.20 - Remote Code Execution                                                                                  | php/webapps/40969.pl
+PHPMailer < 5.2.20 / SwiftMailer < 5.4.5-DEV / Zend Framework / zend-mail < 2.4.11 - 'AIO' 'PwnScriptum' Remote Code Execut | php/webapps/40986.py
+PHPMailer < 5.2.20 with Exim MTA - Remote Code Execution                                                                    | php/webapps/42221.py
+PHPMailer < 5.2.21 - Local File Disclosure                                                                                  | php/webapps/43056.py
+PHPX 3.5.x - 'Admin 'login.php' SQL Injection                                                                               | php/webapps/26697.php
+Pimcore < 5.71 - Unserialize Remote Code Execution (Metasploit)                                                             | php/remote/46783.rb
+Plesk < 9.5.4 - Remote Command Execution                                                                                    | php/remote/25986.txt
+Pydio / AjaXplorer < 5.0.4 - (Unauthenticated) Arbitrary File Upload                                                        | php/webapps/46206.txt
+Redaxo CMS Mediapool Addon < 5.5.1 - Arbitrary File Upload                                                                  | php/webapps/44891.txt
+REDCap < 9.1.2 - Cross-Site Scripting                                                                                       | php/webapps/47146.txt
+Responsive FileManager < 9.13.4 - Directory Traversal                                                                       | php/webapps/45271.txt
+Responsive Filemanger <= 9.11.0 - Arbitrary File Disclosure                                                                 | php/webapps/41272.txt
+RPi Cam Control < 6.3.14 - Multiple Vulnerabilities                                                                         | php/webapps/42638.py
+RPi Cam Control < 6.3.14 - Remote Command Execution                                                                         | php/webapps/42452.py
+RPi Cam Control < 6.4.25 - 'preview.php' Remote Command Execution                                                           | linux/webapps/45361.py
+SeedDMS < 5.1.11 - 'out.GroupMgr.php' Cross-Site Scripting                                                                  | php/webapps/47024.txt
+SeedDMS < 5.1.11 - 'out.UsrMgr.php' Cross-Site Scripting                                                                    | php/webapps/47023.txt
+SeedDMS versions < 5.1.11 - Remote Command Execution                                                                        | php/webapps/47022.txt
+Sendroid < 6.5.0 - SQL Injection                                                                                            | php/webapps/43395.php
+ShoreTel Connect ONSITE < 19.49.1500.0 - Multiple Vulnerabilities                                                           | php/webapps/46666.txt
+Silver Peak VXOA < 6.2.11 - Multiple Vulnerabilities                                                                        | php/webapps/38197.txt
+Simple PHP Blog 0.5.x - 'search.php' Cross-Site Scripting                                                                   | php/webapps/33507.txt
+SiteEngine 5.x - Multiple Vulnerabilities                                                                                   | php/webapps/6823.txt
+SOLIDserver < 5.0.4 - Local File Inclusion                                                                                  | php/webapps/39478.txt
+SwiftMailer < 5.4.5-DEV - Remote Code Execution                                                                             | php/webapps/40972.php
+Synology Photostation < 6.7.2-3429 - Multiple Vulnerabilities                                                               | php/webapps/43844.txt
+ThinkPHP 5.X - Remote Command Execution                                                                                     | php/webapps/46150.txt
+UBBCentral UBB.Threads 5.x/6.x - Multiple Remote File Inclusions                                                            | php/webapps/1843.txt
+UBBCentral UBB.Threads < 6.5.2 Beta - 'mailthread.php' SQL Injection                                                        | php/webapps/1069.php
+vBulletin 3.0.9/3.5.x - 'member.php' Cross-Site Scripting                                                                   | php/webapps/28076.txt
+vBulletin 3.5.x/3.6.x - SWF Script Injection                                                                                | php/webapps/29338.txt
+vBulletin 4.x/5.x - AdminCP/ApiLog via xmlrpc API (Authenticated) Persistent Cross-Site Scripting                           | php/webapps/40114.py
+vBulletin 5.x - Remote Code Execution                                                                                       | php/webapps/38790.pl
+vBulletin 5.x - Remote Command Execution (Metasploit)                                                                       | php/webapps/47437.rb
+WebTester 5.x - Multiple Vulnerabilities                                                                                    | php/webapps/28995.txt
+Western Digital Arkeia < 10.0.10 - Remote Code Execution (Metasploit)                                                       | php/remote/28407.rb
+WHMCompleteSolution (WHMCS) 4.x/5.x - Multiple Web Vulnerabilities                                                          | php/webapps/30246.txt
+WordPress Plugin BuddyPress Plugin 1.5.x < 1.5.5 - SQL Injection                                                            | php/webapps/18690.txt
+WordPress Plugin Database Backup < 5.2 - Remote Code Execution (Metasploit)                                                 | php/remote/47187.rb
+WordPress Plugin DZS Videogallery < 8.60 - Multiple Vulnerabilities                                                         | php/webapps/39553.txt
+WordPress Plugin iThemes Security < 7.0.3 - SQL Injection                                                                   | php/webapps/44943.txt
+WordPress Plugin Rest Google Maps < 7.11.18 - SQL Injection                                                                 | php/webapps/48918.sh
+YaBB SE 1.5.x - Arbitrary File Deletion                                                                                     | php/webapps/23774.txt
+YaBB SE 1.5.x - Multiple SQL Injections                                                                                     | php/webapps/23775.txt
+---------------------------------------------------------------------------------------------------------------------------- ---------------------------------
+Shellcodes: No Results
