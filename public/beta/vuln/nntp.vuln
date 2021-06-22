@@ -1,0 +1,9 @@
+--------------------------------------------------------------------------------------------------------------------------- ---------------------------------
+ Exploit Title                                                                                                             |  Path
+--------------------------------------------------------------------------------------------------------------------------- ---------------------------------
+Blat 2.7.6 SMTP / NNTP Mailer - Local Buffer Overflow                                                                      | windows/local/38472.py
+Microsoft Outlook Express - NNTP Buffer Overflow (MS05-030)                                                                | windows/remote/1066.cpp
+Microsoft Outlook Express - NNTP Response Parsing Buffer Overflow (MS05-030) (Metasploit)                                  | windows/remote/16379.rb
+phNNTP 1.3 - 'article-raw.php' Remote File Inclusion                                                                       | php/webapps/2148.txt
+--------------------------------------------------------------------------------------------------------------------------- ---------------------------------
+Shellcodes: No Results
