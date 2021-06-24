@@ -1,0 +1,79 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-24 19:25 KST
+Nmap scan report for 10.11.1.227
+Host is up (0.31s latency).
+Not shown: 65520 closed ports
+PORT      STATE    SERVICE
+0/tcp     filtered unknown
+21/tcp    open     ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| ftp-syst: 
+|_  SYST: Windows_NT version 5.0
+25/tcp    open     smtp
+| smtp-commands: jd.acme.local Hello [192.168.119.213], AUTH GSSAPI NTLM LOGIN, AUTH=LOGIN, TURN, ATRN, SIZE 2097152, ETRN, PIPELINING, DSN, ENHANCEDSTATUSCODES, 8bitmime, BINARYMIME, CHUNKING, VRFY, OK, 
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH TURN ATRN ETRN BDAT VRFY 
+| smtp-ntlm-info: 
+|   Target_Name: JD
+|   NetBIOS_Domain_Name: JD
+|   NetBIOS_Computer_Name: JD
+|   DNS_Domain_Name: jd.acme.local
+|   DNS_Computer_Name: jd.acme.local
+|_  Product_Version: 5.0.2195
+80/tcp    open     http
+| http-methods: 
+|_  Potentially risky methods: TRACE COPY PROPFIND SEARCH LOCK UNLOCK DELETE PUT MOVE MKCOL PROPPATCH
+|_http-title: Directory Listing Denied
+| http-webdav-scan: 
+|   WebDAV type: Unknown
+|   Allowed Methods: OPTIONS, TRACE, GET, HEAD, COPY, PROPFIND, SEARCH, LOCK, UNLOCK
+|   Server Date: Thu, 24 Jun 2021 11:05:43 GMT
+|   Public Options: OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH
+|_  Server Type: Microsoft-IIS/5.0
+135/tcp   open     msrpc
+139/tcp   open     netbios-ssn
+443/tcp   open     https
+445/tcp   open     microsoft-ds
+1025/tcp  open     NFS-or-IIS
+1026/tcp  open     LSA-or-nterm
+1028/tcp  open     unknown
+3372/tcp  open     msdtc
+5800/tcp  open     vnc-http
+|_http-title: VNC viewer for Java
+5900/tcp  open     vnc
+| vnc-info: 
+|   Protocol version: 3.8
+|   Security types: 
+|_    VNC Authentication (2)
+6532/tcp  open     unknown
+27900/tcp open     ms-sql-s
+
+Host script results:
+|_clock-skew: mean: -1h00m15s, deviation: 1h24m49s, median: -2h00m14s
+| ms-sql-info: 
+|   Windows server name: JD
+|   10.11.1.227\MSSQLSERVER: 
+|     Instance name: MSSQLSERVER
+|     Version: 
+|       name: Microsoft SQL Server 2000 RTM
+|       number: 8.00.194.00
+|       Product: Microsoft SQL Server 2000
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|     TCP port: 27900
+|     Named pipe: \\10.11.1.227\pipe\sql\query
+|_    Clustered: false
+|_nbstat: NetBIOS name: JD, NetBIOS user: ADMINISTRATOR, NetBIOS MAC: 00:50:56:bf:4e:89 (VMware)
+| smb-os-discovery: 
+|   OS: Windows 2000 (Windows 2000 LAN Manager)
+|   OS CPE: cpe:/o:microsoft:windows_2000::-
+|   Computer name: jd
+|   NetBIOS computer name: JD\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-06-24T13:03:52+02:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+Nmap done: 1 IP address (1 host up) scanned in 2426.05 seconds

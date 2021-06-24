@@ -1,0 +1,66 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-24 18:58 KST
+Nmap scan report for 10.11.1.223
+Host is up (0.31s latency).
+Not shown: 65517 closed ports
+PORT      STATE    SERVICE
+0/tcp     filtered unknown
+21/tcp    open     ftp
+| ftp-syst: 
+|_  SYST: UNIX emulated by FileZilla
+80/tcp    open     http
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+|_http-title: ApPHP MicroBlog
+135/tcp   open     msrpc
+139/tcp   open     netbios-ssn
+443/tcp   open     https
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|       secure flag not set and HTTPS in use
+|_      httponly flag not set
+|_http-title: ApPHP MicroBlog
+| ssl-cert: Subject: commonName=localhost
+| Not valid before: 2009-11-10T23:48:47
+|_Not valid after:  2019-11-08T23:48:47
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|_  http/1.1
+445/tcp   open     microsoft-ds
+3306/tcp  open     mysql
+3389/tcp  open     ms-wbt-server
+| rdp-ntlm-info: 
+|   Target_Name: JEFF
+|   NetBIOS_Domain_Name: JEFF
+|   NetBIOS_Computer_Name: JEFF
+|   DNS_Domain_Name: jeff
+|   DNS_Computer_Name: jeff
+|   Product_Version: 10.0.17763
+|_  System_Time: 2021-06-24T10:22:54+00:00
+| ssl-cert: Subject: commonName=jeff
+| Not valid before: 2021-06-04T10:03:40
+|_Not valid after:  2021-12-04T10:03:40
+|_ssl-date: 2021-06-24T10:22:53+00:00; -21s from scanner time.
+5985/tcp  open     wsman
+47001/tcp open     winrm
+49664/tcp open     unknown
+49665/tcp open     unknown
+49666/tcp open     unknown
+49667/tcp open     unknown
+49668/tcp open     unknown
+49669/tcp open     unknown
+49670/tcp open     unknown
+49671/tcp open     unknown
+
+Host script results:
+|_clock-skew: mean: -21s, deviation: 0s, median: -21s
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-06-24T10:22:53
+|_  start_date: N/A
+
+Nmap done: 1 IP address (1 host up) scanned in 1650.86 seconds

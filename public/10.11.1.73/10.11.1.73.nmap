@@ -1,0 +1,65 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-24 05:48 KST
+Nmap scan report for 10.11.1.73
+Host is up (0.31s latency).
+Not shown: 65516 filtered ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+554/tcp   open  rtsp
+1100/tcp  open  mctp
+2869/tcp  open  icslap
+3306/tcp  open  mysql
+|_ssl-cert: ERROR: Script execution failed (use -d to debug)
+|_ssl-date: ERROR: Script execution failed (use -d to debug)
+|_sslv2: ERROR: Script execution failed (use -d to debug)
+|_tls-alpn: ERROR: Script execution failed (use -d to debug)
+|_tls-nextprotoneg: ERROR: Script execution failed (use -d to debug)
+5357/tcp  open  wsdapi
+5800/tcp  open  vnc-http
+|_http-title: TightVNC desktop [gamma]
+5900/tcp  open  vnc
+| vnc-info: 
+|   Protocol version: 3.8
+|   Security types: 
+|     VNC Authentication (2)
+|     Tight (16)
+|   Tight auth subtypes: 
+|_    STDV VNCAUTH_ (2)
+8014/tcp  open  unknown
+8080/tcp  open  http-proxy
+|_http-open-proxy: Proxy might be redirecting requests
+| http-robots.txt: 1 disallowed entry 
+|_/testmysql.php
+|_http-title: Site doesn't have a title (text/html).
+10243/tcp open  unknown
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+49192/tcp open  unknown
+
+Host script results:
+|_clock-skew: mean: -17s, deviation: 2s, median: -18s
+| smb-os-discovery: 
+|   OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1:professional
+|   Computer name: gamma
+|   NetBIOS computer name: GAMMA\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-06-23T20:53:09+00:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-06-23T20:53:10
+|_  start_date: 2021-03-10T16:09:15
+
+Nmap done: 1 IP address (1 host up) scanned in 439.01 seconds

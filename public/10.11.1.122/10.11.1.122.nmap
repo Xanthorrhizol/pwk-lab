@@ -1,0 +1,45 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-24 08:13 KST
+Nmap scan report for 10.11.1.122
+Host is up (0.31s latency).
+Not shown: 65520 closed ports
+PORT      STATE    SERVICE
+0/tcp     filtered unknown
+135/tcp   open     msrpc
+139/tcp   open     netbios-ssn
+445/tcp   open     microsoft-ds
+3389/tcp  open     ms-wbt-server
+| rdp-ntlm-info: 
+|   Target_Name: xor
+|   NetBIOS_Domain_Name: xor
+|   NetBIOS_Computer_Name: XOR-APP07
+|   DNS_Domain_Name: xor.com
+|   DNS_Computer_Name: xor-app07.xor.com
+|   DNS_Tree_Name: xor.com
+|   Product_Version: 10.0.17763
+|_  System_Time: 2021-06-23T23:38:19+00:00
+| ssl-cert: Subject: commonName=xor-app07.xor.com
+| Not valid before: 2021-06-22T00:07:20
+|_Not valid after:  2021-12-22T00:07:20
+|_ssl-date: 2021-06-23T23:38:18+00:00; -18s from scanner time.
+5985/tcp  open     wsman
+47001/tcp open     winrm
+49664/tcp open     unknown
+49665/tcp open     unknown
+49666/tcp open     unknown
+49667/tcp open     unknown
+49668/tcp open     unknown
+49669/tcp open     unknown
+49670/tcp open     unknown
+49671/tcp open     unknown
+49672/tcp open     unknown
+
+Host script results:
+|_clock-skew: mean: -18s, deviation: 0s, median: -18s
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-06-23T23:38:20
+|_  start_date: N/A
+
+Nmap done: 1 IP address (1 host up) scanned in 1632.53 seconds

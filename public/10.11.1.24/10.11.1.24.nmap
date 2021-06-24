@@ -1,0 +1,56 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-24 03:23 KST
+Nmap scan report for 10.11.1.24
+Host is up (0.31s latency).
+Not shown: 65523 closed ports
+PORT      STATE    SERVICE
+0/tcp     filtered unknown
+135/tcp   open     msrpc
+139/tcp   open     netbios-ssn
+445/tcp   open     microsoft-ds
+3389/tcp  open     ms-wbt-server
+| rdp-ntlm-info: 
+|   Target_Name: svcorp
+|   NetBIOS_Domain_Name: svcorp
+|   NetBIOS_Computer_Name: SVCLIENT73
+|   DNS_Domain_Name: svcorp.com
+|   DNS_Computer_Name: svclient73.svcorp.com
+|   DNS_Tree_Name: svcorp.com
+|   Product_Version: 10.0.14393
+|_  System_Time: 2021-06-23T18:47:04+00:00
+| ssl-cert: Subject: commonName=svclient73.svcorp.com
+| Not valid before: 2021-03-09T23:40:00
+|_Not valid after:  2021-09-08T23:40:00
+|_ssl-date: 2021-06-23T18:47:03+00:00; -18s from scanner time.
+49664/tcp open     unknown
+49665/tcp open     unknown
+49666/tcp open     unknown
+49667/tcp open     unknown
+49668/tcp open     unknown
+49669/tcp open     unknown
+49670/tcp open     unknown
+49671/tcp open     unknown
+
+Host script results:
+|_clock-skew: mean: -12m17s, deviation: 26m49s, median: -18s
+| smb-os-discovery: 
+|   OS: Windows 10 Pro N 14393 (Windows 10 Pro N 6.3)
+|   OS CPE: cpe:/o:microsoft:windows_10::-
+|   Computer name: svclient73
+|   NetBIOS computer name: SVCLIENT73\x00
+|   Domain name: svcorp.com
+|   Forest name: svcorp.com
+|   FQDN: svclient73.svcorp.com
+|_  System time: 2021-06-23T19:47:04+01:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-06-23T18:47:06
+|_  start_date: 2021-03-10T23:40:00
+
+Nmap done: 1 IP address (1 host up) scanned in 1593.95 seconds

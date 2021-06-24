@@ -1,0 +1,31 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-24 18:23 KST
+Stats: 0:01:11 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 15.71% done; ETC: 18:30 (0:06:21 remaining)
+Nmap scan report for 10.11.1.221
+Host is up (0.31s latency).
+Not shown: 65531 filtered ports
+PORT      STATE SERVICE
+21/tcp    open  ftp
+| ftp-syst: 
+|_  SYST: UNIX emulated by FileZilla
+135/tcp   open  msrpc
+3389/tcp  open  ms-wbt-server
+| rdp-ntlm-info: 
+|   Target_Name: DEFENDER
+|   NetBIOS_Domain_Name: DEFENDER
+|   NetBIOS_Computer_Name: DEFENDER
+|   DNS_Domain_Name: defender
+|   DNS_Computer_Name: defender
+|   Product_Version: 10.0.14393
+|_  System_Time: 2021-06-24T09:28:02+00:00
+| ssl-cert: Subject: commonName=defender
+| Not valid before: 2021-03-09T16:46:46
+|_Not valid after:  2021-09-08T16:46:46
+|_ssl-date: 2021-06-24T09:28:01+00:00; -23s from scanner time.
+5985/tcp  open  wsman
+49666/tcp open  unknown
+
+Host script results:
+|_clock-skew: mean: -23s, deviation: 0s, median: -23s
+
+Nmap done: 1 IP address (1 host up) scanned in 342.24 seconds

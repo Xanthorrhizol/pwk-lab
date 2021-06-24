@@ -1,0 +1,21 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-24 04:57 KST
+Nmap scan report for alpha.pwk (10.11.1.71)
+Host is up (0.31s latency).
+Not shown: 65533 closed ports
+PORT   STATE    SERVICE
+0/tcp  filtered unknown
+22/tcp open     ssh
+| ssh-hostkey: 
+|   1024 72:b5:55:80:1b:24:d6:f3:bf:a5:c5:98:1b:01:03:90 (DSA)
+|   2048 1a:f6:a7:0d:ed:c2:73:a1:6f:a3:08:68:28:b5:3b:bb (RSA)
+|   256 e6:43:89:59:f9:85:d8:e2:bb:e3:d7:ed:28:5c:c5:65 (ECDSA)
+|_  256 3b:0b:f3:84:3c:7d:6e:2b:2c:81:11:94:16:9b:71:7d (ED25519)
+80/tcp open     http
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+| http-title: Trees of Large Sizes
+|_Requested resource was site/index.php/
+
+Nmap done: 1 IP address (1 host up) scanned in 1416.76 seconds

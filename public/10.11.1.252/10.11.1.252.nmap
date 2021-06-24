@@ -1,0 +1,13 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-24 21:27 KST
+Nmap scan report for 10.11.1.252
+Host is up (0.31s latency).
+Not shown: 65533 filtered ports
+PORT      STATE SERVICE
+8000/tcp  open  http-alt
+|_http-open-proxy: Proxy might be redirecting requests
+| http-title: TimeClock Software :: Dev. Dpt. Thinc.local :: Log In
+|_Requested resource was login.php
+8888/tcp  open  sun-answerbook
+22000/tcp open  snapenetio
+
+Nmap done: 1 IP address (1 host up) scanned in 376.79 seconds

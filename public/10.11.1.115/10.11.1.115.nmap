@@ -1,0 +1,59 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-24 06:41 KST
+Nmap scan report for 10.11.1.115
+Host is up (0.31s latency).
+Not shown: 65524 closed ports
+PORT      STATE    SERVICE
+0/tcp     filtered unknown
+21/tcp    open     ftp
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_drwxr-xr-x    2 0        0            4096 Feb 28  2003 pub
+22/tcp    open     ssh
+| ssh-hostkey: 
+|   1024 36:70:a4:9f:32:47:ac:57:3f:ef:a1:ec:0b:ba:44:1b (RSA1)
+|   1024 64:79:7d:c6:a2:63:32:54:f0:d9:2b:f3:5d:c7:d2:69 (DSA)
+|_  1024 48:fb:39:3d:30:82:50:de:66:69:c5:ca:45:62:c0:dc (RSA)
+|_sshv1: Server supports SSHv1
+25/tcp    open     smtp
+|_smtp-commands: Couldn't establish connection on port 25
+80/tcp    open     http
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: Test Page for the Apache Web Server on Red Hat Linux
+111/tcp   open     rpcbind
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2            111/tcp   rpcbind
+|   100000  2            111/udp   rpcbind
+|   100024  1          32768/tcp   status
+|   100024  1          32768/udp   status
+|_  391002  2          32769/tcp   sgi_fam
+139/tcp   open     netbios-ssn
+143/tcp   open     imap
+|_imap-capabilities: SCAN SORT LOGIN-REFERRALS IDLE completed CAPABILITY THREAD=ORDEREDSUBJECT OK MULTIAPPEND IMAP4REV1 MAILBOX-REFERRALS THREAD=REFERENCES STARTTLS AUTH=LOGINA0001 NAMESPACE
+|_ssl-date: 2021-06-23T22:05:30+00:00; -5s from scanner time.
+199/tcp   open     smux
+443/tcp   open     https
+|_http-title: Bad request!
+| ssl-cert: Subject: commonName=redhat/organizationName=ACME LOCAL LTD/stateOrProvinceName=Berkshire/countryName=GB
+| Not valid before: 2007-01-16T14:54:43
+|_Not valid after:  2008-01-16T14:54:43
+|_ssl-date: 2021-06-23T22:04:50+00:00; -5s from scanner time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+|     SSL2_RC4_64_WITH_MD5
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+3306/tcp  open     mysql
+32768/tcp open     status
+
+Host script results:
+|_clock-skew: mean: -5s, deviation: 0s, median: -5s
+|_nbstat: NetBIOS name: TOPHAT, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+Nmap done: 1 IP address (1 host up) scanned in 1523.28 seconds

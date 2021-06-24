@@ -1,0 +1,37 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-24 20:51 KST
+Nmap scan report for 10.11.1.237
+Host is up (0.31s latency).
+Not shown: 65528 closed ports
+PORT      STATE    SERVICE
+0/tcp     filtered unknown
+22/tcp    open     ssh
+| ssh-hostkey: 
+|   1024 fc:89:ba:50:c2:ea:2d:ab:b9:19:f1:f9:0a:b4:c0:5a (DSA)
+|   2048 de:2d:b8:bd:43:8a:c3:28:2b:d3:22:84:d0:6c:e0:9d (RSA)
+|_  256 a5:58:4d:9d:e8:61:de:55:83:e2:71:6b:5d:ad:83:e2 (ECDSA)
+80/tcp    open     http
+|_http-title: Site doesn't have a title (text/html).
+111/tcp   open     rpcbind
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2,3,4        111/tcp   rpcbind
+|   100000  2,3,4        111/udp   rpcbind
+|   100000  3,4          111/tcp6  rpcbind
+|   100000  3,4          111/udp6  rpcbind
+|   100024  1          32907/tcp6  status
+|   100024  1          33451/udp6  status
+|   100024  1          42769/tcp   status
+|_  100024  1          46372/udp   status
+443/tcp   open     https
+| ssl-cert: Subject: commonName=localhost
+| Not valid before: 2013-12-26T16:25:05
+|_Not valid after:  2023-12-24T16:25:05
+|_ssl-date: 2021-06-24T12:17:42+00:00; -11s from scanner time.
+27017/tcp filtered mongod
+28017/tcp filtered mongod
+42769/tcp open     status
+
+Host script results:
+|_clock-skew: -11s
+
+Nmap done: 1 IP address (1 host up) scanned in 1603.60 seconds

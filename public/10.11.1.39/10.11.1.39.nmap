@@ -1,0 +1,17 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-24 04:25 KST
+Nmap scan report for 10.11.1.39
+Host is up (0.31s latency).
+Not shown: 65533 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+| ssh-hostkey: 
+|   2048 5e:c1:7e:d2:f9:20:f9:11:ea:4b:02:68:07:3f:54:f2 (RSA)
+|   256 36:ef:27:31:a2:fd:4a:e3:d2:4e:12:58:1f:7a:03:58 (ECDSA)
+|_  256 2c:70:9c:c9:4c:50:61:d2:51:43:d5:67:d1:d0:39:de (ED25519)
+80/tcp   open  http
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: Apache HTTP Server Test Page powered by CentOS
+3306/tcp open  mysql
+
+Nmap done: 1 IP address (1 host up) scanned in 384.33 seconds

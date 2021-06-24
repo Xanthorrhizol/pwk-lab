@@ -1,0 +1,43 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-24 06:00 KST
+Nmap scan report for 10.11.1.101
+Host is up (0.31s latency).
+Not shown: 65529 closed ports
+PORT    STATE    SERVICE
+0/tcp   filtered unknown
+21/tcp  open     ftp
+22/tcp  open     ssh
+| ssh-hostkey: 
+|   2048 62:54:16:aa:0b:73:77:61:1b:a4:45:c0:f8:2e:5b:ed (RSA)
+|   256 f4:42:23:27:6e:90:fe:bc:f4:d9:32:6f:8f:6b:74:34 (ECDSA)
+|_  256 c6:6a:fa:44:6e:31:37:da:e3:9e:dc:29:f4:48:6b:b8 (ED25519)
+25/tcp  filtered smtp
+80/tcp  open     http
+| http-robots.txt: 1 disallowed entry 
+|_/passwords/
+|_http-title: TryHarder oscp.thinc.local
+139/tcp open     netbios-ssn
+445/tcp open     microsoft-ds
+
+Host script results:
+|_clock-skew: mean: 1h19m41s, deviation: 2h18m34s, median: -19s
+|_nbstat: NetBIOS name: BREAK, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.3.11-Ubuntu)
+|   Computer name: break
+|   NetBIOS computer name: BREAK\x00
+|   Domain name: \x00
+|   FQDN: break
+|_  System time: 2021-06-23T17:12:06-04:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-06-23T21:12:06
+|_  start_date: N/A
+
+Nmap done: 1 IP address (1 host up) scanned in 750.40 seconds

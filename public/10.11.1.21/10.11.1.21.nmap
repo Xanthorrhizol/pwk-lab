@@ -1,0 +1,55 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-24 02:24 KST
+Nmap scan report for 10.11.1.21
+Host is up (0.32s latency).
+Not shown: 65519 closed ports
+PORT      STATE    SERVICE
+0/tcp     filtered unknown
+21/tcp    open     ftp
+| ftp-syst: 
+|_  SYST: UNIX emulated by FileZilla
+80/tcp    open     http
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: SV Corporation Editorial Process
+135/tcp   open     msrpc
+139/tcp   open     netbios-ssn
+445/tcp   open     microsoft-ds
+3389/tcp  open     ms-wbt-server
+| rdp-ntlm-info: 
+|   Target_Name: svcorp
+|   NetBIOS_Domain_Name: svcorp
+|   NetBIOS_Computer_Name: SV-FILE01
+|   DNS_Domain_Name: svcorp.com
+|   DNS_Computer_Name: sv-file01.svcorp.com
+|   DNS_Tree_Name: svcorp.com
+|   Product_Version: 10.0.14393
+|_  System_Time: 2021-06-23T17:52:18+00:00
+| ssl-cert: Subject: commonName=sv-file01.svcorp.com
+| Not valid before: 2021-06-22T12:10:03
+|_Not valid after:  2021-12-22T12:10:03
+|_ssl-date: 2021-06-23T17:52:17+00:00; -17s from scanner time.
+5985/tcp  open     wsman
+47001/tcp open     winrm
+49664/tcp open     unknown
+49665/tcp open     unknown
+49666/tcp open     unknown
+49667/tcp open     unknown
+49668/tcp open     unknown
+49669/tcp open     unknown
+49670/tcp open     unknown
+49671/tcp open     unknown
+
+Host script results:
+|_clock-skew: mean: -17s, deviation: 0s, median: -17s
+| smb-security-mode: 
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-06-23T17:52:21
+|_  start_date: 2020-10-11T04:25:51
+
+Nmap done: 1 IP address (1 host up) scanned in 1813.35 seconds

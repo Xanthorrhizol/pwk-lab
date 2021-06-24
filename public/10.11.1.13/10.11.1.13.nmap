@@ -1,0 +1,103 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-24 01:10 KST
+Nmap scan report for 10.11.1.13
+Host is up (0.31s latency).
+Not shown: 65517 closed ports
+PORT      STATE    SERVICE
+0/tcp     filtered unknown
+21/tcp    open     ftp
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| 04-07-19  10:25PM       <DIR>          aspnet_client
+| 06-23-21  02:33PM               347648 C
+| 06-22-21  02:25PM                 1241 cmd-asp-5.1.asp
+| 06-22-21  02:49PM                 1581 cmd2.asp
+| 06-22-21  02:51PM                 1241 cmd3.asp
+| 06-22-21  02:55PM                 1442 cmd4.aspx
+| 06-22-21  01:01PM                 1581 cmdasp.asp
+| 06-23-21  02:26PM                 1580 GetCLSID.ps1
+| 06-22-21  02:36PM                12191 hack.png
+| 06-22-21  02:48PM                 4230 hello.png
+| 06-22-21  02:38PM                12191 iis-85.png
+| 04-07-19  07:14PM                  701 iisstart.htm
+| 06-23-21  02:33PM               347648 JuicyPotato.exe
+| 06-23-21  02:14PM                59392 nc.exe
+| 06-23-21  03:32PM                 1588 privesc.bat
+| 06-22-21  02:47PM                38278 rev.asp
+| 06-22-21  02:47PM                 2777 rev.aspx
+| 06-22-21  02:59PM                38332 shell.asp
+| 06-22-21  03:07PM                 1400 shell.aspx
+| 06-22-21  05:53PM              1015673 shell_http.aspx
+|_Only 20 shown. Use --script-args ftp-anon.maxlist=-1 to see all.
+| ftp-syst: 
+|_  SYST: Windows_NT
+135/tcp   open     msrpc
+139/tcp   open     netbios-ssn
+445/tcp   open     microsoft-ds
+1433/tcp  open     ms-sql-s
+| ms-sql-ntlm-info: 
+|   Target_Name: DISCO
+|   NetBIOS_Domain_Name: DISCO
+|   NetBIOS_Computer_Name: DISCO
+|   DNS_Domain_Name: disco
+|   DNS_Computer_Name: disco
+|_  Product_Version: 6.3.9600
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Not valid before: 2020-10-12T02:41:31
+|_Not valid after:  2050-10-12T02:41:31
+|_ssl-date: 2021-06-23T16:39:27+00:00; -18s from scanner time.
+3389/tcp  open     ms-wbt-server
+| rdp-ntlm-info: 
+|   Target_Name: DISCO
+|   NetBIOS_Domain_Name: DISCO
+|   NetBIOS_Computer_Name: DISCO
+|   DNS_Domain_Name: disco
+|   DNS_Computer_Name: disco
+|   Product_Version: 6.3.9600
+|_  System_Time: 2021-06-23T16:37:22+00:00
+| ssl-cert: Subject: commonName=disco
+| Not valid before: 2021-06-21T00:00:14
+|_Not valid after:  2021-12-21T00:00:14
+4167/tcp  open     ddgn
+5800/tcp  open     vnc-http
+|_http-title: TightVNC desktop [disco]
+5900/tcp  open     vnc
+| vnc-info: 
+|   Protocol version: 3.8
+|   Security types: 
+|     None (1)
+|     Tight (16)
+|   Tight auth subtypes: 
+|     None
+|_  WARNING: Server does not require authentication
+5985/tcp  open     wsman
+47001/tcp open     winrm
+49152/tcp open     unknown
+49153/tcp open     unknown
+49154/tcp open     unknown
+49155/tcp open     unknown
+49156/tcp open     unknown
+49157/tcp open     unknown
+49158/tcp open     unknown
+
+Host script results:
+|_clock-skew: mean: -18s, deviation: 0s, median: -19s
+| ms-sql-info: 
+|   10.11.1.13:1433: 
+|     Version: 
+|       name: Microsoft SQL Server 2012 RTM
+|       number: 11.00.2100.00
+|       Product: Microsoft SQL Server 2012
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|_    TCP port: 1433
+| smb-security-mode: 
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-06-23T16:37:22
+|_  start_date: 2020-10-12T02:41:29
+
+Nmap done: 1 IP address (1 host up) scanned in 1749.95 seconds

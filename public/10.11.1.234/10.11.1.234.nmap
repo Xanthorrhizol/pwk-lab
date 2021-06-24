@@ -1,0 +1,15 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-24 20:32 KST
+Nmap scan report for 10.11.1.234
+Host is up (0.31s latency).
+Not shown: 65532 closed ports
+PORT      STATE    SERVICE
+0/tcp     filtered unknown
+22/tcp    open     ssh
+| ssh-hostkey: 
+|   1024 2c:83:67:02:29:20:87:99:87:55:95:92:6c:8d:a4:a3 (DSA)
+|_  2048 6b:91:08:a8:c0:90:ac:68:bd:c9:cd:9c:be:69:2b:ac (RSA)
+80/tcp    open     http
+|_http-title: Business Statistics | New Server for Thinc&#039;s Business Sta...
+10443/tcp open     cirrossp
+
+Nmap done: 1 IP address (1 host up) scanned in 1158.18 seconds

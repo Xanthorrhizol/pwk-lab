@@ -1,0 +1,24 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-24 05:55 KST
+Nmap scan report for 10.11.1.79
+Host is up (0.31s latency).
+Not shown: 65534 filtered ports
+PORT     STATE SERVICE
+2233/tcp open  infocrypt
+3389/tcp open  ms-wbt-server
+| rdp-ntlm-info: 
+|   Target_Name: MARIA
+|   NetBIOS_Domain_Name: MARIA
+|   NetBIOS_Computer_Name: MARIA
+|   DNS_Domain_Name: Maria
+|   DNS_Computer_Name: Maria
+|   Product_Version: 10.0.17763
+|_  System_Time: 2021-06-23T21:00:08+00:00
+| ssl-cert: Subject: commonName=Maria
+| Not valid before: 2021-06-22T17:08:15
+|_Not valid after:  2021-12-22T17:08:15
+|_ssl-date: 2021-06-23T21:00:07+00:00; -18s from scanner time.
+
+Host script results:
+|_clock-skew: mean: -18s, deviation: 0s, median: -18s
+
+Nmap done: 1 IP address (1 host up) scanned in 277.70 seconds
